@@ -76,9 +76,8 @@ audio {
 }
 .candle {
   position: absolute;
-  bottom: 500px;
-  left: 0;
-  right: 0;
+  top: calc(50% - 150px);
+  left: calc(50% - 10px);
   width: 20px;
   margin: auto;
   z-index: 99;
