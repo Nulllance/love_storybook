@@ -31,6 +31,10 @@
     </div>
     <div class="happyTitle">
       <h1>Happy Birthday to you, my Babe!</h1>
+      <h2 class="wish">祝我的宝永远开心!</h2>
+    </div>
+    <div class="happyTail">
+      <h1>HAPPY Kathy Babe 25th Birthday!</h1>
       <h2 class="wish">Make a Wish~~~</h2>
     </div>
     <button @click="toggleLight()" class="toggleLight">{{ btn_text }}</button>
@@ -73,6 +77,14 @@ audio {
   top: 10%;
   left: 50%;
   transform: translate(-50%, 0);
+}
+.happyTail {
+  text-align: center;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #f8dee9;
 }
 .candle {
   position: absolute;
